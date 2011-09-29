@@ -1,0 +1,3256 @@
+# depslib dependency file v1.0
+1296899705 source:/home/durgesh/zrtp/EndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"EndpointInfo.h"
+	<iostream>
+	<unistd.h>
+
+1296894591 /home/durgesh/zrtp/EndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+
+1296894588 /home/durgesh/zrtp/zRecord.h
+	<string.h>
+	<stdint.h>
+
+1294680889 source:/home/durgesh/zrtp/hmac256.cpp
+	<openssl/hmac.h>
+	"hmac256.h"
+
+1294680819 /home/durgesh/zrtp/hmac256.h
+	<stdint.h>
+
+1296294403 source:/home/durgesh/zrtp/zQueue.cpp
+	<string>
+	<stdio.h>
+	"zMain.h"
+	"zQueue.h"
+	"EndpointInfo.h"
+	"zStateMachineDef.h"
+	"UserCallback.h"
+
+1294333856 /home/durgesh/zrtp/zMain.h
+	<cstdlib>
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"EndpointInfo.h"
+	"zrtptxtdata.h"
+	"zGoClearAck.h"
+	"zaes.h"
+
+1296302317 /home/durgesh/zrtp/zHello.h
+	"zPacketBase.h"
+
+1296287428 /home/durgesh/zrtp/zPacketBase.h
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<netinet/in.h>
+	"zPacket.h"
+	"zrtptxtdata.h"
+	"zCRC32.h"
+
+1292070472 /home/durgesh/zrtp/zPacket.h
+	<stdio.h>
+
+1296487138 /home/durgesh/zrtp/zrtptxtdata.h
+
+1288931072 /home/durgesh/zrtp/zCRC32.h
+
+1292075770 /home/durgesh/zrtp/zHelloAck.h
+	"zPacketBase.h"
+
+1292069746 /home/durgesh/zrtp/zCommit.h
+	"zPacketBase.h"
+
+1294772153 /home/durgesh/zrtp/zDHPart.h
+	"zPacketBase.h"
+
+1292070172 /home/durgesh/zrtp/zConfirm.h
+	"zPacketBase.h"
+
+1292076300 /home/durgesh/zrtp/zConf2Ack.h
+	"zPacketBase.h"
+
+1292072068 /home/durgesh/zrtp/zGoClear.h
+	"zPacketBase.h"
+
+1292071486 /home/durgesh/zrtp/zError.h
+	"zPacketBase.h"
+
+1292071642 /home/durgesh/zrtp/zErrorAck.h
+	"zPacketBase.h"
+
+1292075910 /home/durgesh/zrtp/zPing.h
+	"zPacketBase.h"
+
+1292076040 /home/durgesh/zrtp/zPingAck.h
+	"zPacketBase.h"
+
+1295438535 /home/durgesh/zrtp/zCallback.h
+	<string>
+	"zCodes.h"
+
+1292143892 /home/durgesh/zrtp/zCodes.h
+
+1292072218 /home/durgesh/zrtp/zGoClearAck.h
+	"zPacketBase.h"
+
+1295528547 /home/durgesh/zrtp/zQueue.h
+	"rtp.h"
+	"zCallback.h"
+	"zTimer2.h"
+	"synch.h"
+	"UserCallback.h"
+	"packetQueue.h"
+
+1296494221 /home/durgesh/zrtp/rtp.h
+	<netinet/in.h>
+	<stdio.h>
+	<string.h>
+	"cryptoContext.h"
+
+1293124844 /home/durgesh/zrtp/zTimer2.h
+	<pthread.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	<list>
+
+1295442687 /home/durgesh/zrtp/synch.h
+	<pthread.h>
+
+1292066352 /home/durgesh/zrtp/UserCallback.h
+	<stdint.h>
+	<string.h>
+	"zCodes.h"
+
+1295419541 /home/durgesh/zrtp/zStateMachineDef.h
+	"zStates.h"
+
+1292138080 /home/durgesh/zrtp/zStates.h
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<assert.h>
+
+1296834672 source:/home/durgesh/zrtp/sha256.cpp
+	<openssl/crypto.h>
+	<openssl/sha.h>
+	"sha256.h"
+
+1294668977 /home/durgesh/zrtp/sha256.h
+	<stdint.h>
+
+1294069197 source:/home/durgesh/zrtp/initializeOpenSSL.cpp
+	<stdio.h>
+	<openssl/evp.h>
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+
+1295435000 source:/home/durgesh/zrtp/zopenssl.cpp
+	"zopenssl.h"
+
+1294074753 /home/durgesh/zrtp/zopenssl.h
+	<stdio.h>
+	<openssl/evp.h>
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+	"synch.h"
+
+1294074446 source:/home/durgesh/zrtp/zAes.cpp
+	<openssl/crypto.h>
+	<openssl/aes.h>
+	<string.h>
+	"zaes.h"
+
+1294071209 /home/durgesh/zrtp/zaes.h
+	"zopenssl.h"
+
+1296287495 source:/home/durgesh/zrtp/zCommit.cpp
+	"zCommit.h"
+
+1292070380 source:/home/durgesh/zrtp/zConfirm.cpp
+	"zConfirm.h"
+
+1294074495 source:/home/durgesh/zrtp/zDH.cpp
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/rand.h>
+	<openssl/bio.h>
+	<openssl/bn.h>
+	<openssl/evp.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	"zDH.h"
+
+1294074478 /home/durgesh/zrtp/zDH.h
+	<stdint.h>
+	"zrtptxtdata.h"
+	"zopenssl.h"
+
+1294772347 source:/home/durgesh/zrtp/zDHPart.cpp
+	"zDHPart.h"
+
+1296583117 source:/home/durgesh/zrtp/zError.cpp
+	"zError.h"
+
+1292071732 source:/home/durgesh/zrtp/zErrorAck.cpp
+	"zErrorAck.h"
+
+1292072172 source:/home/durgesh/zrtp/zGoClear.cpp
+	"zGoClear.h"
+
+1292072200 source:/home/durgesh/zrtp/zGoClearAck.cpp
+	"zGoClearAck.h"
+
+1296301242 source:/home/durgesh/zrtp/zHello.cpp
+	"zHello.h"
+
+1292075824 source:/home/durgesh/zrtp/zHelloAck.cpp
+	"zHelloAck.h"
+
+1292075934 source:/home/durgesh/zrtp/zPing.cpp
+	"zPing.h"
+
+1292076096 source:/home/durgesh/zrtp/zPingAck.cpp
+	"zPingAck.h"
+
+1293612244 /home/durgesh/zrtp/cryptoContext.h
+	<stdint.h>
+	<string.h>
+
+1295528889 /home/durgesh/zrtp/packetQueue.h
+	"rtp.h"
+
+1296487397 source:/home/durgesh/zrtp/zStateMachineDef.cpp
+	<iostream>
+	<ctype.h>
+	<cstdlib>
+	"zMain.h"
+	"zStateMachineDef.h"
+
+1296731284 source:/home/durgesh/zrtp/zrtptxtdata.cpp
+	<stdint.h>
+	<stdio.h>
+
+1296894469 source:/home/durgesh/zrtp/zRecord.cpp
+	"zRecord.h"
+	<time.h>
+
+1296898394 source:/home/durgesh/zrtp/zMain.cpp
+	"zMain.h"
+	"zStateMachineDef.h"
+	"EndpointInfo.h"
+	"zRecord.h"
+	"zDH.h"
+	"hmac256.h"
+	"sha256.h"
+	"zaes.h"
+	"Base32.h"
+	<sstream>
+
+1295106685 source:/home/durgesh/zrtp/Base32.cpp
+	"Base32.h"
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+
+1294675829 /home/durgesh/zrtp/Base32.h
+	<iostream>
+	<cstdlib>
+	<assert.h>
+	<stddef.h>
+	<string.h>
+
+1294682498 source:/home/durgesh/zrtp/zConf2Ack.cpp
+	"zConf2Ack.h"
+
+1294769952 source:/home/durgesh/zrtp/zCRC.cpp
+	<stdio.h>
+	<stdint.h>
+	"zCRC32.h"
+
+1311070339 source:/home/igor/Documents/CppSamples/zrtp/Base32.cpp
+	"Base32.h"
+	<math.h>
+	<stdio.h>
+	"pstdint.h"
+	<stdint.h>
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/Base32.h
+	<iostream>
+	<cstdlib>
+	<assert.h>
+	<stddef.h>
+	<string.h>
+
+1310743643 /home/igor/Documents/CppSamples/zrtp/pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1311070487 source:/home/igor/Documents/CppSamples/zrtp/EndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"EndpointInfo.h"
+	<iostream>
+	<unistd.h>
+
+1310735149 /home/igor/Documents/CppSamples/zrtp/EndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+
+1310743706 /home/igor/Documents/CppSamples/zrtp/zRecord.h
+	<string.h>
+	"pstdint.h"
+	<stdint.h>
+
+1310736780 source:/home/igor/Documents/CppSamples/zrtp/hmac256.cpp
+	<openssl/hmac.h>
+	"hmac256.h"
+
+1311070503 /home/igor/Documents/CppSamples/zrtp/hmac256.h
+	"pstdint.h"
+	<stdint.h>
+
+1310736786 source:/home/igor/Documents/CppSamples/zrtp/sha256.cpp
+	<openssl/crypto.h>
+	<openssl/sha.h>
+	"sha256.h"
+
+1311070521 /home/igor/Documents/CppSamples/zrtp/sha256.h
+	"pstdint.h"
+	<stdint.h>
+
+1310402642 source:/home/igor/Documents/CppSamples/zrtp/zAes.cpp
+	<openssl/crypto.h>
+	<openssl/aes.h>
+	<string.h>
+	"zaes.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zaes.h
+	"zopenssl.h"
+
+1310736398 /home/igor/Documents/CppSamples/zrtp/zopenssl.h
+	<stdio.h>
+	<openssl/evp.h>
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+	"synch.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/synch.h
+	<pthread.h>
+
+1311070533 source:/home/igor/Documents/CppSamples/zrtp/zCRC.cpp
+	<stdio.h>
+	"pstdint.h"
+	<stdint.h>
+	"zCRC32.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zCRC32.h
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zCommit.cpp
+	"zCommit.h"
+
+1310402642 /home/igor/Documents/CppSamples/zrtp/zCommit.h
+	"zPacketBase.h"
+
+1311070674 /home/igor/Documents/CppSamples/zrtp/zPacketBase.h
+	<winsock2.h>
+	"pstdint.h"
+	<netinet/in.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"zPacket.h"
+	"zrtptxtdata.h"
+	"zCRC32.h"
+
+1310402642 /home/igor/Documents/CppSamples/zrtp/zPacket.h
+	<stdio.h>
+
+1310739846 /home/igor/Documents/CppSamples/zrtp/zrtptxtdata.h
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zConf2Ack.cpp
+	"zConf2Ack.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zConf2Ack.h
+	"zPacketBase.h"
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zConfirm.cpp
+	"zConfirm.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zConfirm.h
+	"zPacketBase.h"
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zDH.cpp
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/rand.h>
+	<openssl/bio.h>
+	<openssl/bn.h>
+	<openssl/evp.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	"zDH.h"
+
+1311070655 /home/igor/Documents/CppSamples/zrtp/zDH.h
+	"pstdint.h"
+	<stdint.h>
+	"zrtptxtdata.h"
+	"zopenssl.h"
+
+1310402642 source:/home/igor/Documents/CppSamples/zrtp/zDHPart.cpp
+	"zDHPart.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zDHPart.h
+	"zPacketBase.h"
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zError.cpp
+	"zError.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zError.h
+	"zPacketBase.h"
+
+1310402642 source:/home/igor/Documents/CppSamples/zrtp/zErrorAck.cpp
+	"zErrorAck.h"
+
+1310402642 /home/igor/Documents/CppSamples/zrtp/zErrorAck.h
+	"zPacketBase.h"
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zGoClear.cpp
+	"zGoClear.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zGoClear.h
+	"zPacketBase.h"
+
+1310402642 source:/home/igor/Documents/CppSamples/zrtp/zGoClearAck.cpp
+	"zGoClearAck.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zGoClearAck.h
+	"zPacketBase.h"
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zHello.cpp
+	"zHello.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zHello.h
+	"zPacketBase.h"
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zHelloAck.cpp
+	"zHelloAck.h"
+
+1310402642 /home/igor/Documents/CppSamples/zrtp/zHelloAck.h
+	"zPacketBase.h"
+
+1310741483 source:/home/igor/Documents/CppSamples/zrtp/zMain.cpp
+	"zMain.h"
+	"zStateMachineDef.h"
+	"EndpointInfo.h"
+	"zRecord.h"
+	"zDH.h"
+	"hmac256.h"
+	"sha256.h"
+	"zaes.h"
+	"Base32.h"
+	<sstream>
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zMain.h
+	<cstdlib>
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"EndpointInfo.h"
+	"zrtptxtdata.h"
+	"zGoClearAck.h"
+	"zaes.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zPing.h
+	"zPacketBase.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zPingAck.h
+	"zPacketBase.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zCallback.h
+	<string>
+	"zCodes.h"
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zCodes.h
+
+1310402643 /home/igor/Documents/CppSamples/zrtp/zStateMachineDef.h
+	"zStates.h"
+
+1311070689 /home/igor/Documents/CppSamples/zrtp/zStates.h
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"pstdint.h"
+	<stdint.h>
+
+1310402643 source:/home/igor/Documents/CppSamples/zrtp/zPing.cpp
+	"zPing.h"
+
+1310402642 source:/home/igor/Documents/CppSamples/zrtp/zPingAck.cpp
+	"zPingAck.h"
+
+1310739259 source:/home/igor/Documents/CppSamples/zrtp/zQueue.cpp
+	<string>
+	<stdio.h>
+	"zMain.h"
+	"zQueue.h"
+	"EndpointInfo.h"
+	"zStateMachineDef.h"
+	"UserCallback.h"
+
+1310402642 /home/igor/Documents/CppSamples/zrtp/zQueue.h
+	"rtp.h"
+	"zCallback.h"
+	"zTimer2.h"
+	"synch.h"
+	"UserCallback.h"
+	"packetQueue.h"
+
+1310735928 /home/igor/Documents/CppSamples/zrtp/rtp.h
+	<stdio.h>
+	<string.h>
+	<winsock2.h>
+	<netinet/in.h>
+	"cryptoContext.h"
+
+1311070019 /home/igor/Documents/CppSamples/zrtp/cryptoContext.h
+	"pstdint.h"
+	<stdint.h>
+	<string.h>
+
+1310735692 /home/igor/Documents/CppSamples/zrtp/zTimer2.h
+	<pthread.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	<time.h>
+	<sys/time.h>
+
+1311070027 /home/igor/Documents/CppSamples/zrtp/UserCallback.h
+	"pstdint.h"
+	<stdint.h>
+	<string.h>
+	"zCodes.h"
+
+1310735937 /home/igor/Documents/CppSamples/zrtp/packetQueue.h
+	"rtp.h"
+
+1311336712 source:/home/igor/Documents/zrtp/Base32.cpp
+	"int.h"
+	"Base32.h"
+	<math.h>
+	<stdio.h>
+
+1311331964 /home/igor/Documents/zrtp/Base32.h
+	<iostream>
+	<cstdlib>
+	<assert.h>
+	<stddef.h>
+	<string.h>
+
+1310743643 /home/igor/Documents/zrtp/pstdint.h
+	<stddef.h>
+	<limits.h>
+	<signal.h>
+	<stdint.h>
+	<wchar.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1310736780 source:/home/igor/Documents/zrtp/hmac256.cpp
+	<openssl/hmac.h>
+	"hmac256.h"
+
+1311070503 /home/igor/Documents/zrtp/hmac256.h
+	"pstdint.h"
+	<stdint.h>
+
+1311336775 source:/home/igor/Documents/zrtp/zCRC.cpp
+	<stdio.h>
+	"int.h"
+	"zCRC32.h"
+
+1311336775 /home/igor/Documents/zrtp/zCRC32.h
+	"int.h"
+
+1311332615 source:/home/igor/Documents/zrtp/zCommit.cpp
+	"zCommit.h"
+	"zTextData.h"
+
+1311329214 /home/igor/Documents/zrtp/zCommit.h
+	"zPacketBase.h"
+
+1311336908 /home/igor/Documents/zrtp/zPacketBase.h
+	"int.h"
+	"network.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"zRtpConfig.h"
+	"zPacket.h"
+	"zCRC32.h"
+
+1311335376 /home/igor/Documents/zrtp/zPacket.h
+	<stdio.h>
+	"zRtpConfig.h"
+
+1310739846 /home/igor/Documents/zrtp/zrtptxtdata.h
+
+1311332635 source:/home/igor/Documents/zrtp/zConf2Ack.cpp
+	"zConf2Ack.h"
+	"zTextData.h"
+
+1311329216 /home/igor/Documents/zrtp/zConf2Ack.h
+	"zPacketBase.h"
+
+1311336060 source:/home/igor/Documents/zrtp/zConfirm.cpp
+	"zConfirm.h"
+
+1311329217 /home/igor/Documents/zrtp/zConfirm.h
+	"zPacketBase.h"
+
+1311333864 source:/home/igor/Documents/zrtp/zDH.cpp
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/rand.h>
+	<openssl/bio.h>
+	<openssl/bn.h>
+	<openssl/evp.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	"zDH.h"
+
+1311336775 /home/igor/Documents/zrtp/zDH.h
+	"int.h"
+	"zopenssl.h"
+	"zAlgoSupported.h"
+
+1311336775 /home/igor/Documents/zrtp/zopenssl.h
+	<stdio.h>
+	<openssl/evp.h>
+	"int.h"
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+	"synch.h"
+
+1311329315 /home/igor/Documents/zrtp/synch.h
+	<pthread.h>
+
+1311333690 source:/home/igor/Documents/zrtp/zDHPart.cpp
+	"zDHPart.h"
+
+1311332689 /home/igor/Documents/zrtp/zDHPart.h
+	"zPacketBase.h"
+	"zAlgoSupported.h"
+
+1311332701 source:/home/igor/Documents/zrtp/zError.cpp
+	"zError.h"
+	"zTextData.h"
+
+1311329226 /home/igor/Documents/zrtp/zError.h
+	"zPacketBase.h"
+
+1311332717 source:/home/igor/Documents/zrtp/zErrorAck.cpp
+	"zErrorAck.h"
+	"zTextData.h"
+
+1311329227 /home/igor/Documents/zrtp/zErrorAck.h
+	"zPacketBase.h"
+
+1311332734 source:/home/igor/Documents/zrtp/zGoClear.cpp
+	"zGoClear.h"
+	"zTextData.h"
+
+1311329229 /home/igor/Documents/zrtp/zGoClear.h
+	"zPacketBase.h"
+
+1311332742 source:/home/igor/Documents/zrtp/zGoClearAck.cpp
+	"zGoClearAck.h"
+	"zTextData.h"
+
+1311329230 /home/igor/Documents/zrtp/zGoClearAck.h
+	"zPacketBase.h"
+
+1311332812 source:/home/igor/Documents/zrtp/zHello.cpp
+	"zHello.h"
+	"zTextData.h"
+	"zAlgoSupported.h"
+
+1311329231 /home/igor/Documents/zrtp/zHello.h
+	"zPacketBase.h"
+
+1311332774 source:/home/igor/Documents/zrtp/zHelloAck.cpp
+	"zHelloAck.h"
+	"zTextData.h"
+
+1311329233 /home/igor/Documents/zrtp/zHelloAck.h
+	"zPacketBase.h"
+
+1311332825 source:/home/igor/Documents/zrtp/zPing.cpp
+	"zPing.h"
+	"zTextData.h"
+
+1311329239 /home/igor/Documents/zrtp/zPing.h
+	"zPacketBase.h"
+
+1311332831 source:/home/igor/Documents/zrtp/zPingAck.cpp
+	"zPingAck.h"
+	"zTextData.h"
+
+1311329240 /home/igor/Documents/zrtp/zPingAck.h
+	"zPacketBase.h"
+
+1311331583 source:/home/igor/Documents/zrtp/zStateMachineDef.cpp
+	<iostream>
+	<ctype.h>
+	<cstdlib>
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+
+1310402643 /home/igor/Documents/zrtp/zMain.h
+	<cstdlib>
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"EndpointInfo.h"
+	"zrtptxtdata.h"
+	"zGoClearAck.h"
+	"zaes.h"
+
+1311336775 /home/igor/Documents/zrtp/zCallback.h
+	<string>
+	"int.h"
+	"zCodes.h"
+
+1311333501 /home/igor/Documents/zrtp/zCodes.h
+
+1311336775 /home/igor/Documents/zrtp/zRecord.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1310735149 /home/igor/Documents/zrtp/EndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+
+1311336775 /home/igor/Documents/zrtp/zaes.h
+	"int.h"
+	"zRtpConfig.h"
+	"zCryptoContext.h"
+	"zopenssl.h"
+
+1311331549 /home/igor/Documents/zrtp/zStateMachineDef.h
+	"zStates.h"
+
+1311336775 /home/igor/Documents/zrtp/zStates.h
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"int.h"
+
+1310736396 source:/home/igor/Documents/zrtp/zopenssl.cpp
+	"zopenssl.h"
+
+1311070697 source:/home/igor/Documents/zrtp/zrtptxtdata.cpp
+	<stdio.h>
+	"pstdint.h"
+	<stdint.h>
+
+1311076452 source:/home/igor/Documents/zrtp/EndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"EndpointInfo.h"
+	<iostream>
+	<unistd.h>
+
+1311086369 source:/home/igor/Documents/zrtp/sha256.cpp
+	<openssl/crypto.h>
+	<openssl/sha.h>
+	"sha256.h"
+
+1311070521 /home/igor/Documents/zrtp/sha256.h
+	"pstdint.h"
+	<stdint.h>
+
+1311336909 source:/home/igor/Documents/zrtp/zAes.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"network.h"
+	<openssl/crypto.h>
+	<openssl/aes.h>
+	"zaes.h"
+
+1311076705 source:/home/igor/Documents/zrtp/zMain.cpp
+	"zMain.h"
+	"zStateMachineDef.h"
+	"EndpointInfo.h"
+	"zRecord.h"
+	"zDH.h"
+	"hmac256.h"
+	"sha256.h"
+	"zaes.h"
+	"Base32.h"
+	<sstream>
+
+1311332842 source:/home/igor/Documents/zrtp/zQueue.cpp
+	<string>
+	<stdio.h>
+	"zRtpEngine.h"
+	"zQueue.h"
+	"zEndpointInfo.h"
+	"zTextData.h"
+	"zStateMachineDef.h"
+	"UserCallback.h"
+
+1311331549 /home/igor/Documents/zrtp/zQueue.h
+	"rtp.h"
+	"zCallback.h"
+	"zTimer2.h"
+	"synch.h"
+	"UserCallback.h"
+	"packetQueue.h"
+
+1311336908 /home/igor/Documents/zrtp/rtp.h
+	<stdio.h>
+	<string.h>
+	"network.h"
+	"zCryptoContext.h"
+
+1311091101 /home/igor/Documents/zrtp/cryptoContext.h
+	<string.h>
+	"pstdint.h"
+	<stdint.h>
+
+1311337098 /home/igor/Documents/zrtp/zTimer2.h
+	<pthread.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	"int.h"
+	<time.h>
+	<sys/time.h>
+
+1311336775 /home/igor/Documents/zrtp/UserCallback.h
+	"int.h"
+	<string.h>
+	"zCodes.h"
+
+1311336275 /home/igor/Documents/zrtp/packetQueue.h
+	"rtp.h"
+
+1311335601 source:/home/igor/Documents/zrtp/zRecord.cpp
+	"zRecord.h"
+	<time.h>
+
+1311091540 source:/home/igor/Documents/zrtp/cryptoContext.cpp
+	<winsock2.h>
+	<netinet/in.h>
+	<openssl/hmac.h>
+	"cryptoContext.h"
+	"zAesSrtp.h"
+
+1311090898 /home/igor/Documents/zrtp/zAesSrtp.h
+	"pstdint.h"
+	<stdint.h>
+	"cryptoContext.h"
+
+1311091551 source:/home/igor/Documents/zrtp/zAesSrtp.cpp
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<winsock2.h>
+	<arpa/inet.h>
+	<openssl/aes.h>
+	"zAesSrtp.h"
+
+1311264104 /home/igor/Documents/zrtp/int.h
+	<stdint.h>
+
+1311264183 /home/igor/Documents/zrtp/network.h
+	<Winsock2.h>
+	<Ws2tcpip.h>
+	<Windows.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<netdb.h>
+	<fcntl.h>
+
+1311336387 /home/igor/Documents/zrtp/zRtpConfig.h
+
+1311336775 /home/igor/Documents/zrtp/zCryptoContext.h
+	<string.h>
+	"int.h"
+
+1311332445 source:/home/igor/Documents/zrtp/zAlgoSupported.cpp
+	"zAlgoSupported.h"
+
+1311332231 /home/igor/Documents/zrtp/zAlgoSupported.h
+
+1311336775 /home/igor/Documents/zrtp/zTextData.h
+	"int.h"
+
+1311336909 source:/home/igor/Documents/zrtp/zCryptoContext.cpp
+	"network.h"
+	<openssl/hmac.h>
+	"zCryptoContext.h"
+	"zaes.h"
+
+1311335809 source:/home/igor/Documents/zrtp/zEndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"zRtpConfig.h"
+	"zEndpointInfo.h"
+	<iostream>
+	<unistd.h>
+
+1311335694 /home/igor/Documents/zrtp/zEndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+
+1311336459 /home/igor/Documents/zrtp/zRtpEngine.h
+	<cstdlib>
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"zEndpointInfo.h"
+	"zGoClearAck.h"
+	"zaes.h"
+
+1311336461 source:/home/igor/Documents/zrtp/zRtpEngine.cpp
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+	"zEndpointInfo.h"
+	"zRecord.h"
+	"zDH.h"
+	"zopenssl.h"
+	"zaes.h"
+	"Base32.h"
+	"zTextData.h"
+	"zRtpConfig.h"
+	<sstream>
+
+1314719290 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/Base32.cpp
+	"int.h"
+	"Base32.h"
+	<math.h>
+	<stdio.h>
+
+1313406248 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/int.h
+	<stdint.h>
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/Base32.h
+	<iostream>
+	<cstdlib>
+	<assert.h>
+	<stddef.h>
+	<string.h>
+
+1313406248 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zAlgoSupported.cpp
+	"zAlgoSupported.h"
+
+1313406248 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zAlgoSupported.h
+
+1314719290 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCRC.cpp
+	<stdio.h>
+	"int.h"
+	"zCRC32.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCRC32.h
+	"int.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCommit.cpp
+	"zCommit.h"
+	"zTextData.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCommit.h
+	"zPacketBase.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPacketBase.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"int.h"
+	"network.h"
+	"zRtpConfig.h"
+	"zCRC32.h"
+	"zTextData.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/network.h
+	<Winsock2.h>
+	<Ws2tcpip.h>
+	<Windows.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<netdb.h>
+	<fcntl.h>
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zRtpConfig.h
+	<pj/log.h>
+	"stdio.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPacket.h
+	<stdio.h>
+	"zRtpConfig.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zTextData.h
+	"int.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zConf2Ack.cpp
+	"zConf2Ack.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zConf2Ack.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zConfirm.cpp
+	"zConfirm.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zConfirm.h
+	"zPacketBase.h"
+
+1314800316 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zEndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"zRtpConfig.h"
+	"zEndpointInfo.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zEndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+	"zRtpConfig.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zRecord.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zError.cpp
+	"zError.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zError.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zErrorAck.cpp
+	"zErrorAck.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zErrorAck.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zGoClear.cpp
+	"zGoClear.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zGoClear.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zGoClearAck.cpp
+	"zGoClearAck.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zGoClearAck.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zHelloAck.cpp
+	"zHelloAck.h"
+	"zTextData.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zHelloAck.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPing.cpp
+	"zPing.h"
+	"zTextData.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPing.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPingAck.cpp
+	"zPingAck.h"
+	"zTextData.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPingAck.h
+	"zPacketBase.h"
+
+1314800316 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zRecord.cpp
+	<time.h>
+	"zRecord.h"
+
+1314800316 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zTextData.cpp
+	<stdio.h>
+	"zTextData.h"
+
+1315571528 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCryptoContext.cpp
+	<string.h>
+	<stdio.h>
+	"network.h"
+	"zCryptoContext.h"
+	"zopenssl.h"
+	"zAlgoSupported.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCryptoContext.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zopenssl.h
+	<stdio.h>
+	<openssl/evp.h>
+	"int.h"
+	"zAlgoSupported.h"
+	"zRtpConfig.h"
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+	"synch.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/synch.h
+	<pthread.h>
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zDH.cpp
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/rand.h>
+	<openssl/bio.h>
+	<openssl/bn.h>
+	<openssl/evp.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	"zDH.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zDH.h
+	"int.h"
+	"zopenssl.h"
+	"zAlgoSupported.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zDHPart.cpp
+	"zDHPart.h"
+	"zRtpConfig.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zDHPart.h
+	"zPacketBase.h"
+	"zAlgoSupported.h"
+	"zRtpConfig.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zHello.cpp
+	"zHello.h"
+	"zAlgoSupported.h"
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zHello.h
+	"zPacketBase.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zQueue.cpp
+	<string>
+	<stdio.h>
+	"zRtpEngine.h"
+	"zQueue.h"
+	"zEndpointInfo.h"
+	"zTextData.h"
+	"zStateMachineDef.h"
+	"UserCallback.h"
+	"stdafx.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zRtpEngine.h
+	<cstdlib>
+	"zopenssl.h"
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"zEndpointInfo.h"
+	"zGoClearAck.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCallback.h
+	<string>
+	"int.h"
+	"zCodes.h"
+	"sRtpSecrets.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zCodes.h
+
+1313406248 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/sRtpSecrets.h
+
+1314800316 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zQueue.h
+	"rtp.h"
+	"zCallback.h"
+	"zTimer2.h"
+	"synch.h"
+	"UserCallback.h"
+	"packetQueue.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/rtp.h
+	<stdio.h>
+	<string.h>
+	"network.h"
+	"zCryptoContext.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zTimer2.h
+	<pthread.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	"int.h"
+	<time.h>
+	<sys/time.h>
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/UserCallback.h
+	"int.h"
+	<string.h>
+	"zCodes.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/packetQueue.h
+	"rtp.h"
+	"zCryptoContext.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zStateMachineDef.h
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<vector>
+	"int.h"
+	"zCodes.h"
+
+1313406248 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zStates.h
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"int.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zRtpEngine.cpp
+	<sstream>
+	"int.h"
+	"network.h"
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+	"zRecord.h"
+	"zEndpointInfo.h"
+	"Base32.h"
+	"zDH.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zStateMachineDef.cpp
+	<iostream>
+	<cstdlib>
+	<ctype.h>
+	"network.h"
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+
+1314719290 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_callbackadapter.cpp
+	<stdio.h>
+	<string.h>
+	"pj_callbackadapter.h"
+
+1314719290 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_callbackadapter.h
+	"zCallback.h"
+	"pj_zrtpadapter.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_zrtpadapter.h
+	"int.h"
+	"zRtpConfig.h"
+
+1315571451 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_srtpadapter.cpp
+	"zCryptoContext.h"
+	"pj_srtpadapter.h"
+	<pjmedia/rtp.h>
+	<pjmedia/errno.h>
+	"network.h"
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_srtpadapter.h
+	"int.h"
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/rtp.h
+	<pjmedia/types.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/types.h
+	<pjmedia/config.h>
+	<pj/sock.h>
+	<pj/string.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/config.h
+	<pj/config.h>
+	<pjmedia/config_auto.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/config.h
+	<pj/compat/cc_msvc.h>
+	<pj/compat/cc_gcc.h>
+	<pj/compat/cc_mwcc.h>
+	<pj/compat/cc_codew.h>
+	<pj/compat/cc_gcce.h>
+	<pj/compat/cc_armcc.h>
+	<pj/compat/os_auto.h>
+	<pj/compat/os_symbian.h>
+	<pj/compat/os_win32_wince.h>
+	<pj/compat/os_win32.h>
+	<pj/compat/os_linux_kernel.h>
+	<pj/compat/os_linux.h>
+	<pj/compat/os_palmos.h>
+	<pj/compat/os_sunos.h>
+	<pj/compat/os_darwinos.h>
+	<pj/compat/os_rtems.h>
+	<pj/compat/m_auto.h>
+	<pj/compat/size_t.h>
+	<pj/config_site.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_msvc.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_gcc.h
+	<inttypes.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_mwcc.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_codew.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_gcce.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_armcc.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_auto.h
+	"TargetConditionals.h"
+	"Availability.h"
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_symbian.h
+	<e32def.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_win32_wince.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_win32.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_linux_kernel.h
+	<linux/module.h>
+	<linux/kernel.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_linux.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_palmos.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_sunos.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_darwinos.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_rtems.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/m_auto.h
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/size_t.h
+	<stddef.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/config_site.h
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/config_auto.h
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/types.h
+	<pj/config.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/string.h
+	<pj/types.h>
+	<pj/compat/string.h>
+	<pj/string_i.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/string.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<pj/types.h>
+	<pj/compat/stdarg.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/stdarg.h
+	<stdarg.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/string_i.h
+	<pj/pool.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool.h
+	<pj/list.h>
+	<pj/pool_alt.h>
+	<pjlib.h>
+	"pool_i.h"
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/list.h
+	<pj/types.h>
+	"list_i.h"
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/list_i.h
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_alt.h
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pjlib.h
+	<pj/activesock.h>
+	<pj/addr_resolv.h>
+	<pj/array.h>
+	<pj/assert.h>
+	<pj/ctype.h>
+	<pj/errno.h>
+	<pj/except.h>
+	<pj/fifobuf.h>
+	<pj/file_access.h>
+	<pj/file_io.h>
+	<pj/guid.h>
+	<pj/hash.h>
+	<pj/ioqueue.h>
+	<pj/ip_helper.h>
+	<pj/list.h>
+	<pj/lock.h>
+	<pj/log.h>
+	<pj/math.h>
+	<pj/os.h>
+	<pj/pool.h>
+	<pj/pool_buf.h>
+	<pj/rand.h>
+	<pj/rbtree.h>
+	<pj/sock.h>
+	<pj/sock_qos.h>
+	<pj/sock_select.h>
+	<pj/ssl_sock.h>
+	<pj/string.h>
+	<pj/timer.h>
+	<pj/unicode.h>
+	<pj/compat/high_precision.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/activesock.h
+	<pj/ioqueue.h>
+	<pj/sock.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ioqueue.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/addr_resolv.h
+	<pj/sock.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/array.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/assert.h
+	<pj/config.h>
+	<pj/compat/assert.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/assert.h
+	<assert.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ctype.h
+	<pj/types.h>
+	<pj/compat/ctype.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/ctype.h
+	<ctype.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/errno.h
+	<pj/types.h>
+	<pj/compat/errno.h>
+	<stdarg.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/errno.h
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/except.h
+	<pj/types.h>
+	<pj/compat/setjmp.h>
+	<pj/log.h>
+	<windows.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/setjmp.h
+	<setjmp.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/log.h
+	<pj/types.h>
+	<stdarg.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/fifobuf.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/file_access.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/file_io.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/guid.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/hash.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ip_helper.h
+	<pj/sock.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/lock.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/math.h
+	<pj/string.h>
+	<pj/compat/high_precision.h>
+
+1313406281 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/high_precision.h
+	<math.h>
+	<asm/div64.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/os.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_buf.h
+	<pj/pool.h>
+	<pjlib.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/rand.h
+	<pj/config.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/rbtree.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock_qos.h
+	<pj/sock.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock_select.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ssl_sock.h
+	<pj/ioqueue.h>
+	<pj/sock.h>
+	<pj/sock_qos.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/timer.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/unicode.h
+	<pj/types.h>
+
+1313406282 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_i.h
+	<pj/string.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/errno.h
+	<pjmedia/types.h>
+	<pj/errno.h>
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_zrtp_transport.cpp
+	<pj/config.h>
+	<pj/types.h>
+	<pjmedia/endpoint.h>
+	<pjmedia/transport.h>
+	<pjlib.h>
+	<pjlib-util.h>
+	"zCodes.h"
+	"pj_zrtpadapter.h"
+	"pj_srtpadapter.h"
+	"pj_zrtp_transport.h"
+	"zTextData.h"
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/endpoint.h
+	<pjmedia/codec.h>
+	<pjmedia/sdp.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/codec.h
+	<pjmedia/port.h>
+	<pj/list.h>
+	<pj/pool.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/port.h
+	<pjmedia/types.h>
+	<pj/assert.h>
+	<pj/os.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/sdp.h
+	<pjmedia/types.h>
+
+1313406261 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/transport.h
+	<pjmedia/types.h>
+	<pjmedia/errno.h>
+	<pjmedia/sdp.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util.h
+	<pjlib-util/errno.h>
+	<pjlib-util/types.h>
+	<pjlib-util/getopt.h>
+	<pjlib-util/base64.h>
+	<pjlib-util/crc32.h>
+	<pjlib-util/hmac_md5.h>
+	<pjlib-util/hmac_sha1.h>
+	<pjlib-util/md5.h>
+	<pjlib-util/sha1.h>
+	<pjlib-util/dns.h>
+	<pjlib-util/resolver.h>
+	<pjlib-util/srv_resolver.h>
+	<pjlib-util/dns_server.h>
+	<pjlib-util/scanner.h>
+	<pjlib-util/xml.h>
+	<pjlib-util/stun_simple.h>
+	<pjlib-util/pcap.h>
+	<pjlib-util/http_client.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/errno.h
+	<pj/errno.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/types.h
+	<pj/types.h>
+	<pjlib-util/config.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/config.h
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/getopt.h
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/base64.h
+	<pjlib-util/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/crc32.h
+	<pjlib-util/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h
+	<pj/types.h>
+	<pjlib-util/md5.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/md5.h
+	<pj/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h
+	<pj/types.h>
+	<pjlib-util/sha1.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/sha1.h
+	<pj/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/dns.h
+	<pjlib-util/types.h>
+	<pj/sock.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/resolver.h
+	<pjlib-util/dns.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h
+	<pjlib-util/resolver.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/dns_server.h
+	<pjlib-util/types.h>
+	<pjlib-util/dns.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner.h
+	<pjlib-util/types.h>
+	<pjlib-util/scanner_cis_bitwise.h>
+	<pjlib-util/scanner_cis_uint.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h
+	<pj/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner_cis_uint.h
+	<pj/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/xml.h
+	<pj/types.h>
+	<pj/list.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/stun_simple.h
+	<pjlib-util/types.h>
+	<pj/sock.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/pcap.h
+	<pj/types.h>
+
+1313406285 /home/igor/Documents/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/http_client.h
+	<pj/activesock.h>
+	<pjlib-util/types.h>
+
+1315571299 /home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_zrtp_transport.h
+	<pj/config.h>
+	<pj/types.h>
+	<pjmedia/transport.h>
+	"pj_zrtpadapter.h"
+
+1315571299 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/pj_zrtpadapter.cpp
+	"network.h"
+	"pj_zrtpadapter.h"
+	"pj_callbackadapter.h"
+	"zEndpointInfo.h"
+	"zRtpEngine.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/Base32.cpp
+	"int.h"
+	"Base32.h"
+	<math.h>
+	<stdio.h>
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/int.h
+	<stdint.h>
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/Base32.h
+	<iostream>
+	<cstdlib>
+	<assert.h>
+	<stddef.h>
+	<string.h>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_callbackadapter.cpp
+	<stdio.h>
+	<string.h>
+	"pj_callbackadapter.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_callbackadapter.h
+	"zCallback.h"
+	"pj_zrtpadapter.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCallback.h
+	<string>
+	"int.h"
+	"zCodes.h"
+	"sRtpSecrets.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCodes.h
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/sRtpSecrets.h
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_zrtpadapter.h
+	"int.h"
+	"zRtpConfig.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zRtpConfig.h
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_srtpadapter.cpp
+	"zCryptoContext.h"
+	"pj_srtpadapter.h"
+	<pjmedia/rtp.h>
+	<pjmedia/errno.h>
+	"network.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCryptoContext.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_srtpadapter.h
+	"int.h"
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/rtp.h
+	<pjmedia/types.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/types.h
+	<pjmedia/config.h>
+	<pj/sock.h>
+	<pj/string.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/config.h
+	<pj/config.h>
+	<pjmedia/config_auto.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/config.h
+	<pj/compat/cc_msvc.h>
+	<pj/compat/cc_gcc.h>
+	<pj/compat/cc_mwcc.h>
+	<pj/compat/cc_codew.h>
+	<pj/compat/cc_gcce.h>
+	<pj/compat/cc_armcc.h>
+	<pj/compat/os_auto.h>
+	<pj/compat/os_symbian.h>
+	<pj/compat/os_win32_wince.h>
+	<pj/compat/os_win32.h>
+	<pj/compat/os_linux_kernel.h>
+	<pj/compat/os_linux.h>
+	<pj/compat/os_palmos.h>
+	<pj/compat/os_sunos.h>
+	<pj/compat/os_darwinos.h>
+	<pj/compat/os_rtems.h>
+	<pj/compat/m_auto.h>
+	<pj/compat/size_t.h>
+	<pj/config_site.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_msvc.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_gcc.h
+	<inttypes.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_mwcc.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_codew.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_gcce.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_armcc.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_auto.h
+	"TargetConditionals.h"
+	"Availability.h"
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_symbian.h
+	<e32def.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_win32_wince.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_win32.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_linux_kernel.h
+	<linux/module.h>
+	<linux/kernel.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_linux.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_palmos.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_sunos.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_darwinos.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_rtems.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/m_auto.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/size_t.h
+	<stddef.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/config_site.h
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/config_auto.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/types.h
+	<pj/config.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/string.h
+	<pj/types.h>
+	<pj/compat/string.h>
+	<pj/string_i.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/string.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<pj/types.h>
+	<pj/compat/stdarg.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/stdarg.h
+	<stdarg.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/string_i.h
+	<pj/pool.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool.h
+	<pj/list.h>
+	<pj/pool_alt.h>
+	<pjlib.h>
+	"pool_i.h"
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/list.h
+	<pj/types.h>
+	"list_i.h"
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/list_i.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_alt.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pjlib.h
+	<pj/activesock.h>
+	<pj/addr_resolv.h>
+	<pj/array.h>
+	<pj/assert.h>
+	<pj/ctype.h>
+	<pj/errno.h>
+	<pj/except.h>
+	<pj/fifobuf.h>
+	<pj/file_access.h>
+	<pj/file_io.h>
+	<pj/guid.h>
+	<pj/hash.h>
+	<pj/ioqueue.h>
+	<pj/ip_helper.h>
+	<pj/list.h>
+	<pj/lock.h>
+	<pj/log.h>
+	<pj/math.h>
+	<pj/os.h>
+	<pj/pool.h>
+	<pj/pool_buf.h>
+	<pj/rand.h>
+	<pj/rbtree.h>
+	<pj/sock.h>
+	<pj/sock_qos.h>
+	<pj/sock_select.h>
+	<pj/ssl_sock.h>
+	<pj/string.h>
+	<pj/timer.h>
+	<pj/unicode.h>
+	<pj/compat/high_precision.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/activesock.h
+	<pj/ioqueue.h>
+	<pj/sock.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ioqueue.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/addr_resolv.h
+	<pj/sock.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/array.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/assert.h
+	<pj/config.h>
+	<pj/compat/assert.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/assert.h
+	<assert.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ctype.h
+	<pj/types.h>
+	<pj/compat/ctype.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/ctype.h
+	<ctype.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/errno.h
+	<pj/types.h>
+	<pj/compat/errno.h>
+	<stdarg.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/errno.h
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/except.h
+	<pj/types.h>
+	<pj/compat/setjmp.h>
+	<pj/log.h>
+	<windows.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/setjmp.h
+	<setjmp.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/log.h
+	<pj/types.h>
+	<stdarg.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/fifobuf.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/file_access.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/file_io.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/guid.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/hash.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ip_helper.h
+	<pj/sock.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/lock.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/math.h
+	<pj/string.h>
+	<pj/compat/high_precision.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/high_precision.h
+	<math.h>
+	<asm/div64.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/os.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_buf.h
+	<pj/pool.h>
+	<pjlib.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/rand.h
+	<pj/config.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/rbtree.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock_qos.h
+	<pj/sock.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock_select.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ssl_sock.h
+	<pj/ioqueue.h>
+	<pj/sock.h>
+	<pj/sock_qos.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/timer.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/unicode.h
+	<pj/types.h>
+
+1311883822 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_i.h
+	<pj/string.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/errno.h
+	<pjmedia/types.h>
+	<pj/errno.h>
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/network.h
+	<Winsock2.h>
+	<Ws2tcpip.h>
+	<Windows.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<netdb.h>
+	<fcntl.h>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_zrtp_transport.cpp
+	<pj/config.h>
+	<pj/types.h>
+	<pjmedia/endpoint.h>
+	<pjmedia/transport.h>
+	<pjlib.h>
+	<pjlib-util.h>
+	"zCodes.h"
+	"pj_zrtpadapter.h"
+	"pj_srtpadapter.h"
+	"pj_zrtp_transport.h"
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/endpoint.h
+	<pjmedia/codec.h>
+	<pjmedia/sdp.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/codec.h
+	<pjmedia/port.h>
+	<pj/list.h>
+	<pj/pool.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/port.h
+	<pjmedia/types.h>
+	<pj/assert.h>
+	<pj/os.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/sdp.h
+	<pjmedia/types.h>
+
+1311883814 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/transport.h
+	<pjmedia/types.h>
+	<pjmedia/errno.h>
+	<pjmedia/sdp.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util.h
+	<pjlib-util/errno.h>
+	<pjlib-util/types.h>
+	<pjlib-util/getopt.h>
+	<pjlib-util/base64.h>
+	<pjlib-util/crc32.h>
+	<pjlib-util/hmac_md5.h>
+	<pjlib-util/hmac_sha1.h>
+	<pjlib-util/md5.h>
+	<pjlib-util/sha1.h>
+	<pjlib-util/dns.h>
+	<pjlib-util/resolver.h>
+	<pjlib-util/srv_resolver.h>
+	<pjlib-util/dns_server.h>
+	<pjlib-util/scanner.h>
+	<pjlib-util/xml.h>
+	<pjlib-util/stun_simple.h>
+	<pjlib-util/pcap.h>
+	<pjlib-util/http_client.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/errno.h
+	<pj/errno.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/types.h
+	<pj/types.h>
+	<pjlib-util/config.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/config.h
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/getopt.h
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/base64.h
+	<pjlib-util/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/crc32.h
+	<pjlib-util/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h
+	<pj/types.h>
+	<pjlib-util/md5.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/md5.h
+	<pj/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h
+	<pj/types.h>
+	<pjlib-util/sha1.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/sha1.h
+	<pj/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/dns.h
+	<pjlib-util/types.h>
+	<pj/sock.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/resolver.h
+	<pjlib-util/dns.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h
+	<pjlib-util/resolver.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/dns_server.h
+	<pjlib-util/types.h>
+	<pjlib-util/dns.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner.h
+	<pjlib-util/types.h>
+	<pjlib-util/scanner_cis_bitwise.h>
+	<pjlib-util/scanner_cis_uint.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h
+	<pj/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner_cis_uint.h
+	<pj/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/xml.h
+	<pj/types.h>
+	<pj/list.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/stun_simple.h
+	<pjlib-util/types.h>
+	<pj/sock.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/pcap.h
+	<pj/types.h>
+
+1311883823 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/http_client.h
+	<pj/activesock.h>
+	<pjlib-util/types.h>
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_zrtp_transport.h
+	<pj/config.h>
+	<pj/types.h>
+	<pjmedia/transport.h>
+	"pj_zrtpadapter.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/pj_zrtpadapter.cpp
+	"pj_zrtpadapter.h"
+	"pj_callbackadapter.h"
+	"zEndpointInfo.h"
+	"zRtpEngine.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zEndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zRecord.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zRtpEngine.h
+	<cstdlib>
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"zEndpointInfo.h"
+	"zGoClearAck.h"
+	"zopenssl.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zHello.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zPacketBase.h
+	"int.h"
+	"network.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"zRtpConfig.h"
+	"zPacket.h"
+	"zCRC32.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zPacket.h
+	<stdio.h>
+	"zRtpConfig.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCRC32.h
+	"int.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zHelloAck.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCommit.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zDHPart.h
+	"zPacketBase.h"
+	"zAlgoSupported.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zAlgoSupported.h
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zConfirm.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zConf2Ack.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zGoClear.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zError.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zErrorAck.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zPing.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zPingAck.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zGoClearAck.h
+	"zPacketBase.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zopenssl.h
+	<stdio.h>
+	<openssl/evp.h>
+	"int.h"
+	"zRtpConfig.h"
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+	"synch.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/synch.h
+	<pthread.h>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zAlgoSupported.cpp
+	"zAlgoSupported.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCRC.cpp
+	<stdio.h>
+	"int.h"
+	"zCRC32.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCommit.cpp
+	"zCommit.h"
+	"zTextData.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zTextData.h
+	"int.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zConf2Ack.cpp
+	"zConf2Ack.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zConfirm.cpp
+	"zConfirm.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zCryptoContext.cpp
+	"network.h"
+	<openssl/hmac.h>
+	"zCryptoContext.h"
+	"zopenssl.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zDH.cpp
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/rand.h>
+	<openssl/bio.h>
+	<openssl/bn.h>
+	<openssl/evp.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	"zDH.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zDH.h
+	"int.h"
+	"zopenssl.h"
+	"zAlgoSupported.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zDHPart.cpp
+	"zDHPart.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zEndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"zRtpConfig.h"
+	"zEndpointInfo.h"
+	<iostream>
+	<unistd.h>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zError.cpp
+	"zError.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zErrorAck.cpp
+	"zErrorAck.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zGoClear.cpp
+	"zGoClear.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zGoClearAck.cpp
+	"zGoClearAck.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zHello.cpp
+	"zHello.h"
+	"zTextData.h"
+	"zAlgoSupported.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zHelloAck.cpp
+	"zHelloAck.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zPing.cpp
+	"zPing.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zPingAck.cpp
+	"zPingAck.h"
+	"zTextData.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zQueue.cpp
+	<string>
+	<stdio.h>
+	"zRtpEngine.h"
+	"zQueue.h"
+	"zEndpointInfo.h"
+	"zTextData.h"
+	"zStateMachineDef.h"
+	"UserCallback.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zQueue.h
+	"rtp.h"
+	"zCallback.h"
+	"zTimer2.h"
+	"synch.h"
+	"UserCallback.h"
+	"packetQueue.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/rtp.h
+	<stdio.h>
+	<string.h>
+	"network.h"
+	"zCryptoContext.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zTimer2.h
+	<pthread.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	"int.h"
+	<time.h>
+	<sys/time.h>
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/UserCallback.h
+	"int.h"
+	<string.h>
+	"zCodes.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/packetQueue.h
+	"rtp.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zStateMachineDef.h
+	"zStates.h"
+	"zCodes.h"
+
+1311883807 /home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zStates.h
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"int.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zRecord.cpp
+	"zRecord.h"
+	<time.h>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zRtpEngine.cpp
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+	"zEndpointInfo.h"
+	"zRecord.h"
+	"zDH.h"
+	"zopenssl.h"
+	"zopenssl.h"
+	"Base32.h"
+	"zTextData.h"
+	"zRtpConfig.h"
+	<sstream>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zStateMachineDef.cpp
+	<iostream>
+	<ctype.h>
+	<cstdlib>
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zTextData.cpp
+	"zTextData.h"
+	<stdio.h>
+
+1311883807 source:/home/tuzlukov/Документы/dev_cpu_desktop_zrtp/zrtp/zopenssl.cpp
+	<stdio.h>
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/sha.h>
+	<openssl/hmac.h>
+	<openssl/aes.h>
+	"network.h"
+	"zopenssl.h"
+
+1315571559 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zopenssl.cpp
+	"network.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/sha.h>
+	<openssl/hmac.h>
+	<openssl/aes.h>
+	"zopenssl.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/Base32.cpp
+	"int.h"
+	"Base32.h"
+	<math.h>
+	<stdio.h>
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/int.h
+	<stdint.h>
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/Base32.h
+	<iostream>
+	<cstdlib>
+	<assert.h>
+	<stddef.h>
+	<string.h>
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_callbackadapter.cpp
+	<stdio.h>
+	<string.h>
+	"pj_callbackadapter.h"
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_callbackadapter.h
+	"zCallback.h"
+	"pj_zrtpadapter.h"
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCallback.h
+	<string>
+	"int.h"
+	"zCodes.h"
+	"sRtpSecrets.h"
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCodes.h
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/sRtpSecrets.h
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_zrtpadapter.h
+	"int.h"
+	"zRtpConfig.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zRtpConfig.h
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_srtpadapter.cpp
+	"zCryptoContext.h"
+	"pj_srtpadapter.h"
+	<pjmedia/rtp.h>
+	<pjmedia/errno.h>
+	"network.h"
+
+1314643558 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCryptoContext.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_srtpadapter.h
+	"int.h"
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/rtp.h
+	<pjmedia/types.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/types.h
+	<pjmedia/config.h>
+	<pj/sock.h>
+	<pj/string.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/config.h
+	<pj/config.h>
+	<pjmedia/config_auto.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/config.h
+	<pj/compat/cc_msvc.h>
+	<pj/compat/cc_gcc.h>
+	<pj/compat/cc_mwcc.h>
+	<pj/compat/cc_codew.h>
+	<pj/compat/cc_gcce.h>
+	<pj/compat/cc_armcc.h>
+	<pj/compat/os_auto.h>
+	<pj/compat/os_symbian.h>
+	<pj/compat/os_win32_wince.h>
+	<pj/compat/os_win32.h>
+	<pj/compat/os_linux_kernel.h>
+	<pj/compat/os_linux.h>
+	<pj/compat/os_palmos.h>
+	<pj/compat/os_sunos.h>
+	<pj/compat/os_darwinos.h>
+	<pj/compat/os_rtems.h>
+	<pj/compat/m_auto.h>
+	<pj/compat/size_t.h>
+	<pj/config_site.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_msvc.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_gcc.h
+	<inttypes.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_mwcc.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_codew.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_gcce.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/cc_armcc.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_auto.h
+	"TargetConditionals.h"
+	"Availability.h"
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_symbian.h
+	<e32def.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_win32_wince.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_win32.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_linux_kernel.h
+	<linux/module.h>
+	<linux/kernel.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_linux.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_palmos.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_sunos.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_darwinos.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/os_rtems.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/m_auto.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/size_t.h
+	<stddef.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/config_site.h
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/config_auto.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/types.h
+	<pj/config.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/string.h
+	<pj/types.h>
+	<pj/compat/string.h>
+	<pj/string_i.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/string.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<pj/types.h>
+	<pj/compat/stdarg.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/stdarg.h
+	<stdarg.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/string_i.h
+	<pj/pool.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool.h
+	<pj/list.h>
+	<pj/pool_alt.h>
+	<pjlib.h>
+	"pool_i.h"
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/list.h
+	<pj/types.h>
+	"list_i.h"
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/list_i.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_alt.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pjlib.h
+	<pj/activesock.h>
+	<pj/addr_resolv.h>
+	<pj/array.h>
+	<pj/assert.h>
+	<pj/ctype.h>
+	<pj/errno.h>
+	<pj/except.h>
+	<pj/fifobuf.h>
+	<pj/file_access.h>
+	<pj/file_io.h>
+	<pj/guid.h>
+	<pj/hash.h>
+	<pj/ioqueue.h>
+	<pj/ip_helper.h>
+	<pj/list.h>
+	<pj/lock.h>
+	<pj/log.h>
+	<pj/math.h>
+	<pj/os.h>
+	<pj/pool.h>
+	<pj/pool_buf.h>
+	<pj/rand.h>
+	<pj/rbtree.h>
+	<pj/sock.h>
+	<pj/sock_qos.h>
+	<pj/sock_select.h>
+	<pj/ssl_sock.h>
+	<pj/string.h>
+	<pj/timer.h>
+	<pj/unicode.h>
+	<pj/compat/high_precision.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/activesock.h
+	<pj/ioqueue.h>
+	<pj/sock.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ioqueue.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/addr_resolv.h
+	<pj/sock.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/array.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/assert.h
+	<pj/config.h>
+	<pj/compat/assert.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/assert.h
+	<assert.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ctype.h
+	<pj/types.h>
+	<pj/compat/ctype.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/ctype.h
+	<ctype.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/errno.h
+	<pj/types.h>
+	<pj/compat/errno.h>
+	<stdarg.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/errno.h
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/except.h
+	<pj/types.h>
+	<pj/compat/setjmp.h>
+	<pj/log.h>
+	<windows.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/setjmp.h
+	<setjmp.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/log.h
+	<pj/types.h>
+	<stdarg.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/fifobuf.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/file_access.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/file_io.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/guid.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/hash.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ip_helper.h
+	<pj/sock.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/lock.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/math.h
+	<pj/string.h>
+	<pj/compat/high_precision.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/compat/high_precision.h
+	<math.h>
+	<asm/div64.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/os.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_buf.h
+	<pj/pool.h>
+	<pjlib.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/rand.h
+	<pj/config.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/rbtree.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock_qos.h
+	<pj/sock.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/sock_select.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/ssl_sock.h
+	<pj/ioqueue.h>
+	<pj/sock.h>
+	<pj/sock_qos.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/timer.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/unicode.h
+	<pj/types.h>
+
+1313711196 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib/include/pj/pool_i.h
+	<pj/string.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/errno.h
+	<pjmedia/types.h>
+	<pj/errno.h>
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/network.h
+	<Winsock2.h>
+	<Ws2tcpip.h>
+	<Windows.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<netdb.h>
+	<fcntl.h>
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_zrtp_transport.cpp
+	<pj/config.h>
+	<pj/types.h>
+	<pjmedia/endpoint.h>
+	<pjmedia/transport.h>
+	<pjlib.h>
+	<pjlib-util.h>
+	"zCodes.h"
+	"pj_zrtpadapter.h"
+	"pj_srtpadapter.h"
+	"pj_zrtp_transport.h"
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/endpoint.h
+	<pjmedia/codec.h>
+	<pjmedia/sdp.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/codec.h
+	<pjmedia/port.h>
+	<pj/list.h>
+	<pj/pool.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/port.h
+	<pjmedia/types.h>
+	<pj/assert.h>
+	<pj/os.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/sdp.h
+	<pjmedia/types.h>
+
+1313711186 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjmedia/include/pjmedia/transport.h
+	<pjmedia/types.h>
+	<pjmedia/errno.h>
+	<pjmedia/sdp.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util.h
+	<pjlib-util/errno.h>
+	<pjlib-util/types.h>
+	<pjlib-util/getopt.h>
+	<pjlib-util/base64.h>
+	<pjlib-util/crc32.h>
+	<pjlib-util/hmac_md5.h>
+	<pjlib-util/hmac_sha1.h>
+	<pjlib-util/md5.h>
+	<pjlib-util/sha1.h>
+	<pjlib-util/dns.h>
+	<pjlib-util/resolver.h>
+	<pjlib-util/srv_resolver.h>
+	<pjlib-util/dns_server.h>
+	<pjlib-util/scanner.h>
+	<pjlib-util/xml.h>
+	<pjlib-util/stun_simple.h>
+	<pjlib-util/pcap.h>
+	<pjlib-util/http_client.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/errno.h
+	<pj/errno.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/types.h
+	<pj/types.h>
+	<pjlib-util/config.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/config.h
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/getopt.h
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/base64.h
+	<pjlib-util/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/crc32.h
+	<pjlib-util/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/hmac_md5.h
+	<pj/types.h>
+	<pjlib-util/md5.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/md5.h
+	<pj/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/hmac_sha1.h
+	<pj/types.h>
+	<pjlib-util/sha1.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/sha1.h
+	<pj/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/dns.h
+	<pjlib-util/types.h>
+	<pj/sock.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/resolver.h
+	<pjlib-util/dns.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/srv_resolver.h
+	<pjlib-util/resolver.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/dns_server.h
+	<pjlib-util/types.h>
+	<pjlib-util/dns.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner.h
+	<pjlib-util/types.h>
+	<pjlib-util/scanner_cis_bitwise.h>
+	<pjlib-util/scanner_cis_uint.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h
+	<pj/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/scanner_cis_uint.h
+	<pj/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/xml.h
+	<pj/types.h>
+	<pj/list.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/stun_simple.h
+	<pjlib-util/types.h>
+	<pj/sock.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/pcap.h
+	<pj/types.h>
+
+1313711198 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/pjproject/pjlib-util/include/pjlib-util/http_client.h
+	<pj/activesock.h>
+	<pjlib-util/types.h>
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_zrtp_transport.h
+	<pj/config.h>
+	<pj/types.h>
+	<pjmedia/transport.h>
+	"pj_zrtpadapter.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/pj_zrtpadapter.cpp
+	"network.h"
+	"pj_zrtpadapter.h"
+	"pj_callbackadapter.h"
+	"zEndpointInfo.h"
+	"zRtpEngine.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zEndpointInfo.h
+	<stdio.h>
+	"zRecord.h"
+	"zRtpConfig.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zRecord.h
+	<string.h>
+	"int.h"
+	"zRtpConfig.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zRtpEngine.h
+	<cstdlib>
+	"zopenssl.h"
+	"zHello.h"
+	"zHelloAck.h"
+	"zCommit.h"
+	"zDHPart.h"
+	"zConfirm.h"
+	"zConf2Ack.h"
+	"zGoClear.h"
+	"zError.h"
+	"zErrorAck.h"
+	"zPing.h"
+	"zPingAck.h"
+	"zCallback.h"
+	"zRecord.h"
+	"zEndpointInfo.h"
+	"zGoClearAck.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zopenssl.h
+	<stdio.h>
+	<openssl/evp.h>
+	"int.h"
+	"zAlgoSupported.h"
+	"zRtpConfig.h"
+	<windows.h>
+	<synch.h>
+	<thread.h>
+	<pthread.h>
+	"synch.h"
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zAlgoSupported.h
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/synch.h
+	<pthread.h>
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zHello.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPacketBase.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"int.h"
+	"network.h"
+	"zPacket.h"
+	"zTextData.h"
+	"zCRC32.h"
+	"zRtpConfig.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPacket.h
+	<stdio.h>
+	"zRtpConfig.h"
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zTextData.h
+	"int.h"
+
+1313711179 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCRC32.h
+	"int.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zHelloAck.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCommit.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zDHPart.h
+	"zPacketBase.h"
+	"zAlgoSupported.h"
+	"zRtpConfig.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zConfirm.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zConf2Ack.h
+	"zPacketBase.h"
+
+1314643204 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zGoClear.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zError.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zErrorAck.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPing.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPingAck.h
+	"zPacketBase.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zGoClearAck.h
+	"zPacketBase.h"
+
+1313711179 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zAlgoSupported.cpp
+	"zAlgoSupported.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCRC.cpp
+	<stdio.h>
+	"int.h"
+	"zCRC32.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCommit.cpp
+	"zCommit.h"
+	"zTextData.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zConf2Ack.cpp
+	"zConf2Ack.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zConfirm.cpp
+	"zConfirm.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zCryptoContext.cpp
+	<string.h>
+	<stdio.h>
+	"network.h"
+	"zCryptoContext.h"
+	"zopenssl.h"
+	"zAlgoSupported.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zDH.cpp
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/rand.h>
+	<openssl/bio.h>
+	<openssl/bn.h>
+	<openssl/evp.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	"zDH.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zDH.h
+	"int.h"
+	"zopenssl.h"
+	"zAlgoSupported.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zDHPart.cpp
+	"zDHPart.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zEndpointInfo.cpp
+	<string>
+	<cstdlib>
+	<ctime>
+	"zRtpConfig.h"
+	"zEndpointInfo.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zError.cpp
+	"zError.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zErrorAck.cpp
+	"zErrorAck.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zGoClear.cpp
+	"zGoClear.h"
+
+1314643252 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zGoClearAck.cpp
+	"zGoClearAck.h"
+
+1314643276 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zHello.cpp
+	"zHello.h"
+	"zAlgoSupported.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zHelloAck.cpp
+	"zHelloAck.h"
+	"zTextData.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPacketBase.cpp
+	"zPacketBase.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPing.cpp
+	"zPing.h"
+	"zTextData.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zPingAck.cpp
+	"zPingAck.h"
+	"zTextData.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zQueue.cpp
+	<string>
+	<stdio.h>
+	"zRtpEngine.h"
+	"zQueue.h"
+	"zEndpointInfo.h"
+	"zTextData.h"
+	"zStateMachineDef.h"
+	"UserCallback.h"
+	"stdafx.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zQueue.h
+	"rtp.h"
+	"zCallback.h"
+	"zTimer2.h"
+	"synch.h"
+	"UserCallback.h"
+	"packetQueue.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/rtp.h
+	<stdio.h>
+	<string.h>
+	"network.h"
+	"zCryptoContext.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zTimer2.h
+	<pthread.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<list>
+	"int.h"
+	<time.h>
+	<sys/time.h>
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/UserCallback.h
+	"int.h"
+	<string.h>
+	"zCodes.h"
+
+1314643447 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/packetQueue.h
+	"rtp.h"
+	"zCryptoContext.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zStateMachineDef.h
+	"zStates.h"
+	"zCodes.h"
+
+1314642976 /home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zStates.h
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"int.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zRecord.cpp
+	<time.h>
+	"zRecord.h"
+
+1314643331 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zRtpEngine.cpp
+	<sstream>
+	"int.h"
+	"network.h"
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+	"zRecord.h"
+	"zEndpointInfo.h"
+	"Base32.h"
+	"zDH.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zStateMachineDef.cpp
+	<iostream>
+	<cstdlib>
+	<ctype.h>
+	"network.h"
+	"zRtpEngine.h"
+	"zStateMachineDef.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zTextData.cpp
+	<stdio.h>
+	"zTextData.h"
+
+1314642976 source:/home/tuzlukov/Документы/svn-projects/iCall/dev_cpu_desktop_zrtp/zrtp/zopenssl.cpp
+	"network.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<openssl/crypto.h>
+	<openssl/sha.h>
+	<openssl/hmac.h>
+	<openssl/aes.h>
+	"zopenssl.h"
+
+1314719290 source:/home/igor/Documents/dev_cpu_desktop_zrtp/zrtp/zPacketBase.cpp
+	"zPacketBase.h"
+

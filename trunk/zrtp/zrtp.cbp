@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zrtp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="libzrtp1">
+				<Option output="libzrtp" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/libzrtp1/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../pjproject/pjlib/include" />
+			<Add directory="../../pjproject/pjlib-util/include" />
+			<Add directory="../../pjproject/pjmedia/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lpthread" />
+			<Add library="/usr/lib/libssl.so.0.9.8" />
+		</Linker>
+		<Unit filename="../Base32.cpp" />
+		<Unit filename="../Base32.h" />
+		<Unit filename="../UserCallback.h" />
+		<Unit filename="../basicqueue.h" />
+		<Unit filename="../build_readme.txt" />
+		<Unit filename="../cond.h" />
+		<Unit filename="../int.h" />
+		<Unit filename="../network.h" />
+		<Unit filename="../packetQueue.h" />
+		<Unit filename="../pj_callbackadapter.cpp" />
+		<Unit filename="../pj_callbackadapter.h" />
+		<Unit filename="../pj_srtpadapter.cpp" />
+		<Unit filename="../pj_srtpadapter.h" />
+		<Unit filename="../pj_zrtp_transport.cpp" />
+		<Unit filename="../pj_zrtp_transport.h" />
+		<Unit filename="../pj_zrtpadapter.cpp" />
+		<Unit filename="../pj_zrtpadapter.h" />
+		<Unit filename="../rtp.h" />
+		<Unit filename="../sRtpSecrets.h" />
+		<Unit filename="../synch.h" />
+		<Unit filename="../zAlgoSupported.cpp" />
+		<Unit filename="../zAlgoSupported.h" />
+		<Unit filename="../zCRC.cpp" />
+		<Unit filename="../zCRC32.h" />
+		<Unit filename="../zCallback.h" />
+		<Unit filename="../zCodes.h" />
+		<Unit filename="../zCommit.cpp" />
+		<Unit filename="../zCommit.h" />
+		<Unit filename="../zConf2Ack.cpp" />
+		<Unit filename="../zConf2Ack.h" />
+		<Unit filename="../zConfirm.cpp" />
+		<Unit filename="../zConfirm.h" />
+		<Unit filename="../zCryptoContext.cpp" />
+		<Unit filename="../zCryptoContext.h" />
+		<Unit filename="../zDH.cpp" />
+		<Unit filename="../zDH.h" />
+		<Unit filename="../zDHPart.cpp" />
+		<Unit filename="../zDHPart.h" />
+		<Unit filename="../zEndpointInfo.cpp" />
+		<Unit filename="../zEndpointInfo.h" />
+		<Unit filename="../zError.cpp" />
+		<Unit filename="../zError.h" />
+		<Unit filename="../zErrorAck.cpp" />
+		<Unit filename="../zErrorAck.h" />
+		<Unit filename="../zGoClear.cpp" />
+		<Unit filename="../zGoClear.h" />
+		<Unit filename="../zGoClearAck.cpp" />
+		<Unit filename="../zGoClearAck.h" />
+		<Unit filename="../zHello.cpp" />
+		<Unit filename="../zHello.h" />
+		<Unit filename="../zHelloAck.cpp" />
+		<Unit filename="../zHelloAck.h" />
+		<Unit filename="../zPacketBase.cpp" />
+		<Unit filename="../zPacketBase.h" />
+		<Unit filename="../zPing.cpp" />
+		<Unit filename="../zPing.h" />
+		<Unit filename="../zPingAck.cpp" />
+		<Unit filename="../zPingAck.h" />
+		<Unit filename="../zQueue.cpp" />
+		<Unit filename="../zQueue.h" />
+		<Unit filename="../zRecord.cpp" />
+		<Unit filename="../zRecord.h" />
+		<Unit filename="../zRtpConfig.h" />
+		<Unit filename="../zRtpEngine.cpp" />
+		<Unit filename="../zRtpEngine.h" />
+		<Unit filename="../zStateMachineDef.cpp" />
+		<Unit filename="../zStateMachineDef.h" />
+		<Unit filename="../zTextData.cpp" />
+		<Unit filename="../zTextData.h" />
+		<Unit filename="../zTimer.h" />
+		<Unit filename="../zTimer2.h" />
+		<Unit filename="../zopenssl.cpp" />
+		<Unit filename="../zopenssl.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

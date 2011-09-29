@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../basicqueue.h" open="0" top="0" tabpos="1">
+		<Cursor position="1300" topLine="48" />
+	</File>
+	<File name="../../cond.h" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../synch.h" open="0" top="0" tabpos="0">
+		<Cursor position="405" topLine="2" />
+	</File>
+	<File name="endpointinfotest.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2672" topLine="71" />
+	</File>
+	<File name="helloacktest.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="242" topLine="0" />
+	</File>
+	<File name="hellotest.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="687" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="227" topLine="144" />
+	</File>
+	<File name="main_test.cpp" open="0" top="0" tabpos="21">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="pingtest.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="16" topLine="0" />
+	</File>
+	<File name="qtest.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="2" topLine="0" />
+	</File>
+	<File name="socket_server.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="98" topLine="0" />
+	</File>
+	<File name="test.cpp" open="0" top="0" tabpos="26">
+		<Cursor position="18" topLine="0" />
+	</File>
+	<File name="zTest.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5589" topLine="0" />
+	</File>
+	<File name="../../zTimer2.h" open="0" top="0" tabpos="22">
+		<Cursor position="157" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

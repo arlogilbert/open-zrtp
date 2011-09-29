@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="zrtp">
+		<Project filename="zrtp/zrtp.cbp" />
+		<Project filename="test/zrtptest/zrtptest.cbp" />
+		<Project filename="zrtpservertest/zrtpservertest.cbp" />
+		<Project filename="pjtest/pjtest.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

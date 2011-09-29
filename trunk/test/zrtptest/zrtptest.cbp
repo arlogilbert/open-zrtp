@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zrtptest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/zrtptest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/zrtptest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../pjproject/pjlib/include" />
+			<Add directory="../../../pjproject/pjlib-util/include" />
+			<Add directory="../../../pjproject/pjmedia/include" />
+			<Add directory="../../../pjproject/pjsip/include" />
+			<Add directory="../../../pjproject/pjnath/include" />
+			<Add directory="../../../pjproject/pjsip-apps/src/samples" />
+			<Add directory="../../../pjproject/pjsip-apps/src/pjsua" />
+			<Add directory="../../" />
+			<Add directory="../" />
+		</Compiler>
+		<Linker>
+			<Add option="-lpthread" />
+			<Add library="../../zrtp/libzrtp.a" />
+			<Add library="/usr/lib/libssl.so.0.9.8" />
+			<Add library="../../../pjproject/pjsip/lib/libpjsua-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjsip/lib/libpjsip-ua-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjsip/lib/libpjsip-simple-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjsip/lib/libpjsip-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjmedia/lib/libpjmedia-codec-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjmedia/lib/libpjmedia-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjmedia/lib/libpjmedia-audiodev-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjnath/lib/libpjnath-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjlib-util/lib/libpjlib-util-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libilbccodec-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libg7221codec-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libgsmcodec-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libsrtp-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libspeex-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libresample-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libportaudio-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/third_party/lib/libmilenage-i686-pc-linux-gnu.a" />
+			<Add library="../../../pjproject/pjlib/lib/libpj-i686-pc-linux-gnu.a" />
+		</Linker>
+		<Unit filename="../../basicqueue.h" />
+		<Unit filename="../../cond.h" />
+		<Unit filename="../../synch.h" />
+		<Unit filename="base_socket.cpp" />
+		<Unit filename="endpointinfotest.cpp" />
+		<Unit filename="helloacktest.cpp" />
+		<Unit filename="hellotest.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main_test.cpp" />
+		<Unit filename="pingtest.cpp" />
+		<Unit filename="qtest.cpp" />
+		<Unit filename="socket_server.cpp" />
+		<Unit filename="test.cpp" />
+		<Unit filename="zTest.cpp" />
+		<Unit filename="../../zTimer2.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

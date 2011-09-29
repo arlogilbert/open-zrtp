@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zrtplib", "zrtp\zrtplib.vcproj", "{51322883-146F-4B5A-B711-DC53F1DC9E9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zrtptest", "test\zrtptest\zrtptest.vcproj", "{C9BF17CD-3906-4AB4-B3FE-9DA44C611E4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51322883-146F-4B5A-B711-DC53F1DC9E9B} = {51322883-146F-4B5A-B711-DC53F1DC9E9B}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zrtp", "zrtp", "{50946721-6A9E-4072-8462-896FCC790641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51322883-146F-4B5A-B711-DC53F1DC9E9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51322883-146F-4B5A-B711-DC53F1DC9E9B}.Debug|Win32.Build.0 = Debug|Win32
+		{51322883-146F-4B5A-B711-DC53F1DC9E9B}.Release|Win32.ActiveCfg = Release|Win32
+		{51322883-146F-4B5A-B711-DC53F1DC9E9B}.Release|Win32.Build.0 = Release|Win32
+		{C9BF17CD-3906-4AB4-B3FE-9DA44C611E4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9BF17CD-3906-4AB4-B3FE-9DA44C611E4A}.Debug|Win32.Build.0 = Debug|Win32
+		{C9BF17CD-3906-4AB4-B3FE-9DA44C611E4A}.Release|Win32.ActiveCfg = Release|Win32
+		{C9BF17CD-3906-4AB4-B3FE-9DA44C611E4A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9BF17CD-3906-4AB4-B3FE-9DA44C611E4A} = {50946721-6A9E-4072-8462-896FCC790641}
+		{51322883-146F-4B5A-B711-DC53F1DC9E9B} = {50946721-6A9E-4072-8462-896FCC790641}
+	EndGlobalSection
+EndGlobal

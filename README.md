@@ -2,6 +2,8 @@
 
 Open ZRTP is a cryptographic key-agreement protocol to negotiate the keys for encryption between two end points in a Voice over Internet Protocol (VoIP) phone telephony call based on the Real-time Transport Protocol. It uses Diffie-Hellman key exchange and the Secure Real-time Transport Protocol (SRTP) for encryption.
 
+Open ZRTP can be used for any type of streaming media, whether voice or video.
+
 Open ZRTP is a cross platform project written in C++. Our testing has shown that it compiles quickly and easily on Win32/64, Mac OS X and many Linux distros.
 
 ZRTP was originally created by Phil Zimmermann, the creator of PGP but his ZRTP libraries are licensed under GPL which means you can't use his libraries in a commercial project without paying or open sourcing your entire product.
